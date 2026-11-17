@@ -1,0 +1,10 @@
+:root{--bg:#0e1230;--card:#171b3d;--text:#eef0ff;--muted:#a9aecf;--accent:#78ee9e;--gold:#ffd666}
+*{box-sizing:border-box}
+body{margin:0;background:linear-gradient(#0e1230,#28164a) fixed;color:var(--text);font:17px/1.6 ui-rounded,-apple-system,"SF Pro Rounded",system-ui,sans-serif;padding:0 18px}
+main{max-width:720px;margin:0 auto;padding:48px 0 64px}
+h1{font-size:2rem;margin:.2em 0}h2{color:var(--accent);margin-top:2em}
+a{color:var(--gold)}
+.card{background:var(--card);border-radius:20px;padding:20px 24px;margin:18px 0}
+.muted{color:var(--muted)}
+li{margin:.4em 0}
+nav a{margin-right:16px}
